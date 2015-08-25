@@ -1,0 +1,1029 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Internet\SNMP /I..\..\..\workspace\W5500FreeRTOSExample\Board /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Ethernet\W5500 /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Internet /I..\..\..\workspace\W5500FreeRTOSExample /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Internet\SNTP /I..\..\..\workspace\W5500FreeRTOSExample\stm_lib\inc /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Application /I..\..\.. /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSv8.2.2\Source /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Application\loopback /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSv8.2.2\Source\portable\GCC /I..\..\..\workspace\W5500FreeRTOSExample\stm_lib /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSv8.2.2\Source\portable\GCC\ARM_CM3 /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Internet\DNS /I..\..\..\workspace\W5500FreeRTOSExample\cmsis /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSv8.2.2\Source\portable /I..\..\..\workspace\W5500FreeRTOSExample\cmsis_boot /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Ethernet\W5200 /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Internet\DHCP /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Ethernet\W5100 /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Internet\TFTP /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Ethernet /I..\..\..\workspace /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSv8.2.2 /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSv8.2.2\Source\include">
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\list.h" lastModified="14efde313c6">
+      </source>
+      <source file="..\..\..\stm_lib\src\misc.c" lastModified="14f4e1224ae">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="14f4e11befe">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\timers.h" lastModified="14efde313f5">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h" lastModified="14efde313ea">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\list.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="14f4e11a27c">
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\queue.c" lastModified="14efde317c3">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\queue.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\croutine.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdlib.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\string.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="14f4e11a27c">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="14f4e11a26d">
+      </source>
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="14f4e11a27c">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdint.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\StackMacros.h" lastModified="14efde313e2">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="14f4e11a26d">
+      </source>
+      <source file="..\..\..\Board\IoTEVB.h" lastModified="14d50c5a8bf">
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\timers.c" lastModified="14efde317e1">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\queue.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\timers.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdlib.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_spi.h" lastModified="14f4e11e69f">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\event_groups.h" lastModified="14efde313bb">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\timers.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="14f4e11b67d">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="14f4e11e69f">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\croutine.h" lastModified="14efde313b2">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\list.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="14f4e11b67d">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\portable\GCC\ARM_CM3\portmacro.h" lastModified="14f4e015376">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_usart.h" lastModified="14f4e120a14">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_flash.c" lastModified="14f4e11f723">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_flash.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\portable\MemMang\heap_2.c" lastModified="14efde3168b">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdlib.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\queue.h" lastModified="14efde313d6">
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\mpu_wrappers.h" lastModified="14efde313c9">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_flash.h" lastModified="14f4e11f723">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="14f4e120a23">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\event_groups.c" lastModified="14efde313ac">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\timers.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\event_groups.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdlib.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\misc.h" lastModified="14f4e1224ae">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\portable\GCC\ARM_CM3\port.c" lastModified="14efde3148b">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\croutine.c" lastModified="14efde313a8">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\croutine.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\portable.h" lastModified="14efde313cc">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\deprecated_definitions.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\portable\GCC\ARM_CM3\portmacro.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\mpu_wrappers.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="14f4e11bf0e">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\list.c" lastModified="14efde313fa">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\list.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdlib.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\projdefs.h" lastModified="14efde313cf">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x.h" lastModified="14f4e11a26d">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f10x.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdint.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Internet\SNMP /I..\..\..\workspace\W5500FreeRTOSExample\Board /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Ethernet\W5500 /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Internet /I..\..\..\workspace\W5500FreeRTOSExample /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Internet\SNTP /I..\..\..\workspace\W5500FreeRTOSExample\stm_lib\inc /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Application /I..\..\.. /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSv8.2.2\Source /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Application\loopback /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSv8.2.2\Source\portable\GCC /I..\..\..\workspace\W5500FreeRTOSExample\stm_lib /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSv8.2.2\Source\portable\GCC\ARM_CM3 /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Internet\DNS /I..\..\..\workspace\W5500FreeRTOSExample\cmsis /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSv8.2.2\Source\portable /I..\..\..\workspace\W5500FreeRTOSExample\cmsis_boot /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Ethernet\W5200 /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Internet\DHCP /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Ethernet\W5100 /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Ethernet /I..\..\..\workspace /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSv8.2.2 /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSv8.2.2\Source\include">
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\list.h" lastModified="14efde313c6">
+      </source>
+      <source file="..\..\..\stm_lib\src\misc.c" lastModified="14f4e1224ae">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="14f4e11befe">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\timers.h" lastModified="14efde313f5">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h" lastModified="14efde313ea">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\list.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="14f4e11a27c">
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\queue.c" lastModified="14efde317c3">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\queue.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\croutine.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdlib.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\string.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="14f4e11a27c">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="14f4e11a26d">
+      </source>
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="14f4e11a27c">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdint.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\StackMacros.h" lastModified="14efde313e2">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="14f4e11a26d">
+      </source>
+      <source file="..\..\..\Board\IoTEVB.h" lastModified="14d50c5a8bf">
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\timers.c" lastModified="14efde317e1">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\queue.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\timers.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdlib.h"/>
+      </source>
+      <source file="..\..\..\Board\W5500HardwareDriver.h" lastModified="14cd57dddb6">
+      </source>
+      <source file="..\..\..\Board\IoTEVB.c" lastModified="14d93a0c82d">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\Board\IoTEVB.h"/>
+         <include file="..\..\..\ioLibrary_Driver\Ethernet\wizchip_conf.h"/>
+      </source>
+      <source file="..\..\..\Board\W5500HardwareDriver.c" lastModified="14f4e859b9f">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\Board\W5500HardwareDriver.h"/>
+         <include file="..\..\..\ioLibrary_Driver\Ethernet\wizchip_conf.h"/>
+         <include file="..\..\..\Board\IoTEVB.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdio.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_spi.h" lastModified="14f4e11e69f">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\event_groups.h" lastModified="14efde313bb">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\timers.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="14f4e11b67d">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="14f4e11e69f">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\croutine.h" lastModified="14efde313b2">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\list.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="14f4e11b67d">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\portable\GCC\ARM_CM3\portmacro.h" lastModified="14f4e015376">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="14f4e1295be">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_usart.h" lastModified="14f4e120a14">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_flash.c" lastModified="14f4e11f723">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_flash.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\portable\MemMang\heap_2.c" lastModified="14efde3168b">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdlib.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\queue.h" lastModified="14efde313d6">
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\mpu_wrappers.h" lastModified="14efde313c9">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_flash.h" lastModified="14f4e11f723">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="14f4e120a23">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\event_groups.c" lastModified="14efde313ac">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\timers.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\event_groups.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdlib.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_exti.h" lastModified="14f4e1295be">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\misc.h" lastModified="14f4e1224ae">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\portable\GCC\ARM_CM3\port.c" lastModified="14efde3148b">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\croutine.c" lastModified="14efde313a8">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\croutine.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_i2c.h" lastModified="14f4e12b0df">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\portable.h" lastModified="14efde313cc">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\deprecated_definitions.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\portable\GCC\ARM_CM3\portmacro.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\mpu_wrappers.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="14f4e11bf0e">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\list.c" lastModified="14efde313fa">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\list.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdlib.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="14f4e12b0ef">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\projdefs.h" lastModified="14efde313cf">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x.h" lastModified="14f4e11a26d">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f10x.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdint.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Internet\SNMP /I..\..\..\workspace\W5500FreeRTOSExample\Board /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Ethernet\W5500 /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Internet /I..\..\..\workspace\W5500FreeRTOSExample /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Internet\SNTP /I..\..\..\workspace\W5500FreeRTOSExample\stm_lib\inc /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Application /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSv8.2.2\Source /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Application\loopback /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSv8.2.2\Source\portable\GCC /I..\..\..\workspace\W5500FreeRTOSExample\stm_lib /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSv8.2.2\Source\portable\GCC\ARM_CM3 /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Internet\DNS /I..\..\..\workspace\W5500FreeRTOSExample\cmsis /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSv8.2.2\Source\portable /I..\..\..\workspace\W5500FreeRTOSExample\cmsis_boot /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Ethernet\W5200 /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Internet\DHCP /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Ethernet\W5100 /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Ethernet /I..\..\..\workspace /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSv8.2.2 /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSv8.2.2\Source\include">
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\list.h" lastModified="14efde313c6">
+      </source>
+      <source file="..\..\..\stm_lib\src\misc.c" lastModified="14f4e1224ae">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="14f4e11befe">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\timers.h" lastModified="14efde313f5">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h" lastModified="14efde313ea">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\list.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="14f4e11a27c">
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\queue.c" lastModified="14efde317c3">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\queue.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\croutine.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdlib.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\string.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="14f4e11a27c">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="14f4e11a26d">
+      </source>
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="14f4e11a27c">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdint.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\StackMacros.h" lastModified="14efde313e2">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="14f4e11a26d">
+      </source>
+      <source file="..\..\..\Board\IoTEVB.h" lastModified="14d50c5a8bf">
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\timers.c" lastModified="14efde317e1">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\queue.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\timers.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdlib.h"/>
+      </source>
+      <source file="..\..\..\Board\W5500HardwareDriver.h" lastModified="14cd57dddb6">
+      </source>
+      <source file="..\..\..\Board\IoTEVB.c" lastModified="14d93a0c82d">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\Board\IoTEVB.h"/>
+         <include file="..\..\..\ioLibrary_Driver\Ethernet\wizchip_conf.h"/>
+      </source>
+      <source file="..\..\..\Board\W5500HardwareDriver.c" lastModified="14f4e859b9f">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\Board\W5500HardwareDriver.h"/>
+         <include file="..\..\..\ioLibrary_Driver\Ethernet\wizchip_conf.h"/>
+         <include file="..\..\..\Board\IoTEVB.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdio.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_spi.h" lastModified="14f4e11e69f">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\event_groups.h" lastModified="14efde313bb">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\timers.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="14f4e11b67d">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="14f4e11e69f">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\croutine.h" lastModified="14efde313b2">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\list.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="14f4e11b67d">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\portable\GCC\ARM_CM3\portmacro.h" lastModified="14f4e015376">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="14f4e1295be">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_usart.h" lastModified="14f4e120a14">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_flash.c" lastModified="14f4e11f723">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_flash.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\portable\MemMang\heap_2.c" lastModified="14efde3168b">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdlib.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\queue.h" lastModified="14efde313d6">
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\mpu_wrappers.h" lastModified="14efde313c9">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_flash.h" lastModified="14f4e11f723">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="14f4e120a23">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\event_groups.c" lastModified="14efde313ac">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\timers.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\event_groups.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdlib.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_exti.h" lastModified="14f4e1295be">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\misc.h" lastModified="14f4e1224ae">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\portable\GCC\ARM_CM3\port.c" lastModified="14efde3148b">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\croutine.c" lastModified="14efde313a8">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\croutine.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSConfig.h" lastModified="14f4e8c339d">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_i2c.h" lastModified="14f4e12b0df">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\portable.h" lastModified="14efde313cc">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\deprecated_definitions.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\portable\GCC\ARM_CM3\portmacro.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\mpu_wrappers.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="14f4e11bf0e">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\list.c" lastModified="14efde313fa">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\list.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdlib.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="14f4e12b0ef">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\projdefs.h" lastModified="14efde313cf">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x.h" lastModified="14f4e11a26d">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f10x.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdint.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary\Ethernet\W5100 /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary\Internet\httpServer /I..\..\..\workspace\W5500FreeRTOSExample\Board /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary\Application\loopback /I..\..\..\workspace\W5500FreeRTOSExample /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary\Internet\SNTP /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary\Internet\FTPServer /I..\..\..\workspace\W5500FreeRTOSExample\stm_lib\inc /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary\Ethernet\W5500 /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary\Application /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary\Ethernet\W5200 /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSv8.2.2\Source /I..\..\.. /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary\Internet\DNS /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSv8.2.2\Source\portable\GCC /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary\Ethernet\W5300 /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary\Internet\TFTP /I..\..\..\workspace\W5500FreeRTOSExample\stm_lib /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSv8.2.2\Source\portable\GCC\ARM_CM3 /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary\Ethernet /I..\..\..\workspace\W5500FreeRTOSExample\cmsis /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary\Internet\SNMP /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary\Internet /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSv8.2.2\Source\portable /I..\..\..\workspace\W5500FreeRTOSExample\cmsis_boot /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary\Internet\FTPClient /I..\..\..\workspace /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSv8.2.2 /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary\Internet\DHCP /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSv8.2.2\Source\include">
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\list.h" lastModified="14efde313c6">
+      </source>
+      <source file="..\..\..\ioLibrary\Internet\httpServer\httpParser.h" lastModified="14f2228b000">
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdint.h"/>
+      </source>
+      <source file="..\..\..\ioLibrary\Internet\httpServer\httpUtil.h" lastModified="14f2228b000">
+         <include file="..\..\..\ioLibrary\Internet\httpServer\httpServer.h"/>
+         <include file="..\..\..\ioLibrary\Internet\httpServer\httpParser.h"/>
+      </source>
+      <source file="..\..\..\ioLibrary\Internet\httpServer\httpServer.h" lastModified="14f2228b000">
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdint.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\misc.c" lastModified="14f4e1224ae">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="14f4e11befe">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\ioLibrary\Internet\httpServer\httpParser.c" lastModified="14f2228b000">
+         <include file="..\..\..\ioLibrary\Ethernet\socket.h"/>
+         <include file="..\..\..\ioLibrary\Internet\httpServer\httpParser.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdio.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\string.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\timers.h" lastModified="14efde313f5">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+      </source>
+      <source file="..\..\..\ioLibrary\Internet\httpServer\httpServer.c" lastModified="14f2228b3e8">
+         <include file="..\..\..\ioLibrary\Ethernet\socket.h"/>
+         <include file="..\..\..\ioLibrary\Ethernet\wizchip_conf.h"/>
+         <include file="..\..\..\ioLibrary\Internet\httpServer\httpServer.h"/>
+         <include file="..\..\..\ioLibrary\Internet\httpServer\httpParser.h"/>
+         <include file="..\..\..\ioLibrary\Internet\httpServer\httpUtil.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdio.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\string.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdlib.h"/>
+      </source>
+      <source file="..\..\..\ioLibrary\Internet\httpServer\httpUtil.c" lastModified="14f2228b000">
+         <include file="..\..\..\ioLibrary\Internet\httpServer\httpUtil.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdio.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\string.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdlib.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h" lastModified="14efde313ea">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\list.h"/>
+      </source>
+      <source file="..\..\..\ioLibrary\Ethernet\W5200\w5200.h" lastModified="14f2228b000">
+         <include file="..\..\..\ioLibrary\Ethernet\wizchip_conf.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdint.h"/>
+      </source>
+      <source file="..\..\..\ioLibrary\Ethernet\W5200\w5200.c" lastModified="14f2228b000">
+         <include file="..\..\..\ioLibrary\Ethernet\W5200\w5200.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="14f4e11a27c">
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\queue.c" lastModified="14efde317c3">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\queue.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\croutine.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdlib.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\string.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\tasks.c" lastModified="14f2c3a9d37">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\timers.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\StackMacros.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdlib.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\string.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdio.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="14f4e11a27c">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="14f4e11a26d">
+      </source>
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="14f4e11a27c">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdint.h"/>
+      </source>
+      <source file="..\..\..\ioLibrary\Internet\TFTP\tftp.h" lastModified="14f2228b000">
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdint.h"/>
+      </source>
+      <source file="..\..\..\ioLibrary\Internet\TFTP\tftp.c" lastModified="14f2228b000">
+         <include file="..\..\..\ioLibrary\Internet\TFTP\tftp.h"/>
+         <include file="..\..\..\ioLibrary\Ethernet\socket.h"/>
+         <include file="..\..\..\ioLibrary\Internet\TFTP\netutil.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\string.h"/>
+      </source>
+      <source file="..\..\..\ioLibrary\Internet\SNMP\snmp_custom.h" lastModified="14f2228b3e8">
+         <include file="..\..\..\ioLibrary\Internet\SNMP\snmp.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdio.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\string.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdint.h"/>
+      </source>
+      <source file="..\..\..\ioLibrary\Internet\SNMP\snmp_custom.c" lastModified="14f2228b3e8">
+         <include file="..\..\..\ioLibrary\Internet\SNMP\snmp_custom.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\StackMacros.h" lastModified="14efde313e2">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="14f4e11a26d">
+      </source>
+      <source file="..\..\..\ioLibrary\Ethernet\W5300\w5300.h" lastModified="14f2228b000">
+         <include file="..\..\..\ioLibrary\Ethernet\wizchip_conf.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdint.h"/>
+      </source>
+      <source file="..\..\..\dmx512.h" lastModified="14f5e89f060">
+      </source>
+      <source file="..\..\..\ioLibrary\Internet\FTPClient\stdio_private.h" lastModified="14f2228b000">
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdint.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdio.h"/>
+      </source>
+      <source file="..\..\..\ioLibrary\Ethernet\W5300\w5300.c" lastModified="14f2228b000">
+         <include file="..\..\..\ioLibrary\Ethernet\wizchip_conf.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdint.h"/>
+      </source>
+      <source file="..\..\..\ioLibrary\Application\loopback\loopback.h" lastModified="14f2228b000">
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdint.h"/>
+      </source>
+      <source file="..\..\..\ioLibrary\Internet\TFTP\netutil.h" lastModified="14f2228b000">
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdint.h"/>
+      </source>
+      <source file="..\..\..\dmx512.c" lastModified="14f5e930220">
+         <include file="..\..\..\dmx512.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\ioLibrary\Internet\SNTP\sntp.h" lastModified="14f2228b000">
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdint.h"/>
+      </source>
+      <source file="..\..\..\Board\IoTEVB.h" lastModified="14d50c5a8bf">
+      </source>
+      <source file="..\..\..\ioLibrary\Application\loopback\loopback.c" lastModified="14f2228b000">
+         <include file="..\..\..\ioLibrary\Application\loopback\loopback.h"/>
+         <include file="..\..\..\ioLibrary\Ethernet\socket.h"/>
+         <include file="..\..\..\ioLibrary\Ethernet\wizchip_conf.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdio.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\timers.c" lastModified="14efde317e1">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\queue.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\timers.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdlib.h"/>
+      </source>
+      <source file="..\..\..\ioLibrary\Internet\TFTP\netutil.c" lastModified="14f2228b000">
+         <include file="..\..\..\ioLibrary\Internet\TFTP\netutil.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdio.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdlib.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\string.h"/>
+      </source>
+      <source file="..\..\..\Board\W5500HardwareDriver.h" lastModified="14cd57dddb6">
+      </source>
+      <source file="..\..\..\ioLibrary\Internet\SNTP\sntp.c" lastModified="14f2228b000">
+         <include file="..\..\..\ioLibrary\Internet\SNTP\sntp.h"/>
+         <include file="..\..\..\ioLibrary\Ethernet\socket.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\string.h"/>
+      </source>
+      <source file="..\..\..\Board\IoTEVB.c" lastModified="14d93a0c82d">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\Board\IoTEVB.h"/>
+         <include file="..\..\..\ioLibrary\Ethernet\wizchip_conf.h"/>
+      </source>
+      <source file="..\..\..\Board\W5500HardwareDriver.c" lastModified="14f4e859b9f">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\Board\W5500HardwareDriver.h"/>
+         <include file="..\..\..\ioLibrary\Ethernet\wizchip_conf.h"/>
+         <include file="..\..\..\Board\IoTEVB.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdio.h"/>
+      </source>
+      <source file="..\..\..\ioLibrary\Ethernet\socket.h" lastModified="14f2228b000">
+         <include file="..\..\..\ioLibrary\Ethernet\wizchip_conf.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_spi.h" lastModified="14f4e11e69f">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_dma.h" lastModified="14f5e835f5f">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\event_groups.h" lastModified="14efde313bb">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\timers.h"/>
+      </source>
+      <source file="..\..\..\ioLibrary\Ethernet\socket.c" lastModified="14f2228b000">
+         <include file="..\..\..\ioLibrary\Ethernet\socket.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="14f4e11b67d">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="14f4e11aa5c">
+      </source>
+      <source file="..\..\..\ioLibrary\Internet\FTPClient\ftpc.h" lastModified="14f2228bbb8">
+         <include file="..\..\..\ioLibrary\Internet\FTPClient\stdio_private.h"/>
+         <include file="..\..\..\ioLibrary\Ethernet\socket.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdint.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdio.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\ctype.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\string.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\limits.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="14f5e835f68">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="14f4e11e69f">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\ioLibrary\Internet\FTPClient\ftpc.c" lastModified="14f2228b000">
+         <include file="..\..\..\ioLibrary\Internet\FTPClient\ftpc.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\croutine.h" lastModified="14efde313b2">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\list.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="14f4e11b67d">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\portable\GCC\ARM_CM3\portmacro.h" lastModified="14f4e015376">
+      </source>
+      <source file="..\..\..\ioLibrary\Internet\DHCP\dhcp.h" lastModified="14f2228b000">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="14f4e1295be">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_usart.h" lastModified="14f4e120a14">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stdio\printf.c" lastModified="14f4e5f87a9">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdio.h"/>
+      </source>
+      <source file="..\..\..\ioLibrary\Internet\DHCP\dhcp.c" lastModified="14f2228b000">
+         <include file="..\..\..\ioLibrary\Ethernet\socket.h"/>
+         <include file="..\..\..\ioLibrary\Internet\DHCP\dhcp.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdio.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_flash.c" lastModified="14f4e11f723">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_flash.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\portable\MemMang\heap_2.c" lastModified="14efde3168b">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdlib.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="14f4e11aa5c">
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\queue.h" lastModified="14efde313d6">
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\mpu_wrappers.h" lastModified="14efde313c9">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_flash.h" lastModified="14f4e11f723">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="14f4e120a23">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\deprecated_definitions.h" lastModified="14efde3d707">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\portable\GCC\ARM_CM3\portmacro.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\portable\GCC\ARM_CM3\portmacro.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\portable\GCC\ARM_CM3\portmacro.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\portable\GCC\ARM_CM3\portmacro.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\portable\GCC\ARM_CM3\portmacro.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\portable\GCC\ARM_CM3\portmacro.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\portable\GCC\ARM_CM3\portmacro.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\event_groups.c" lastModified="14efde313ac">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\timers.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\event_groups.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdlib.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_exti.h" lastModified="14f4e1295be">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\ioLibrary\Ethernet\W5500\w5500.h" lastModified="14f2228b000">
+         <include file="..\..\..\ioLibrary\Ethernet\wizchip_conf.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdint.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\misc.h" lastModified="14f4e1224ae">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\ioLibrary\Ethernet\wizchip_conf.h" lastModified="14f2228b000">
+         <include file="..\..\..\ioLibrary\Ethernet\W5100\w5100.h"/>
+         <include file="..\..\..\ioLibrary\Ethernet\W5200\w5200.h"/>
+         <include file="..\..\..\ioLibrary\Ethernet\W5500\w5500.h"/>
+         <include file="..\..\..\ioLibrary\Ethernet\W5300\w5300.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdint.h"/>
+      </source>
+      <source file="..\..\..\ioLibrary\Ethernet\W5500\w5500.c" lastModified="14f2228b000">
+         <include file="..\..\..\ioLibrary\Ethernet\W5500\w5500.h"/>
+      </source>
+      <source file="..\..\..\ioLibrary\Internet\FTPServer\ftpd.h" lastModified="14f2228b3e8">
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdint.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\portable\GCC\ARM_CM3\port.c" lastModified="14efde3148b">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+      </source>
+      <source file="..\..\..\ioLibrary\Ethernet\wizchip_conf.c" lastModified="14f2228b3e8">
+         <include file="..\..\..\ioLibrary\Ethernet\wizchip_conf.h"/>
+      </source>
+      <source file="..\..\..\ioLibrary\Internet\DNS\dns.h" lastModified="14f2228b000">
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdint.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\croutine.c" lastModified="14efde313a8">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\croutine.h"/>
+      </source>
+      <source file="..\..\..\ioLibrary\Internet\FTPServer\ftpd.c" lastModified="14f2228b3e8">
+         <include file="..\..\..\ioLibrary\Internet\FTPServer\stdio_private.h"/>
+         <include file="..\..\..\ioLibrary\Ethernet\socket.h"/>
+         <include file="..\..\..\ioLibrary\Internet\FTPServer\ftpd.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdio.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\ctype.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\string.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\limits.h"/>
+      </source>
+      <source file="..\..\..\ioLibrary\Internet\DNS\dns.c" lastModified="14f2228b000">
+         <include file="..\..\..\ioLibrary\Ethernet\socket.h"/>
+         <include file="..\..\..\ioLibrary\Internet\DNS\dns.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\string.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdlib.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdio.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h" lastModified="14f2c3a9625">
+         <include file="..\..\..\FreeRTOSConfig.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\projdefs.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\portable.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdint.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSConfig.h" lastModified="14f4e8c339d">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_i2c.h" lastModified="14f4e12b0df">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\ioLibrary\Ethernet\W5100\w5100.h" lastModified="14f2228b000">
+         <include file="..\..\..\ioLibrary\Ethernet\wizchip_conf.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdint.h"/>
+      </source>
+      <source file="..\..\..\ioLibrary\Internet\SNMP\snmp.h" lastModified="14f2228b000">
+      </source>
+      <source file="..\..\..\ioLibrary\Ethernet\W5100\w5100.c" lastModified="14f2228b000">
+         <include file="..\..\..\ioLibrary\Ethernet\W5100\w5100.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\portable.h" lastModified="14efde313cc">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\deprecated_definitions.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\portable\GCC\ARM_CM3\portmacro.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\mpu_wrappers.h"/>
+      </source>
+      <source file="..\..\..\ioLibrary\Internet\SNMP\snmp.c" lastModified="14f2228b3e8">
+         <include file="..\..\..\ioLibrary\Ethernet\socket.h"/>
+         <include file="..\..\..\ioLibrary\Internet\SNMP\snmp.h"/>
+         <include file="..\..\..\ioLibrary\Internet\SNMP\snmp_custom.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdio.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\string.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\ctype.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\time.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="14f4e11bf0e">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\list.c" lastModified="14efde313fa">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\list.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdlib.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_tim.h" lastModified="14f5e838276">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\main.c" lastModified="14f5ea07a00">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\Board\IoTEVB.h"/>
+         <include file="..\..\..\Board\W5500HardwareDriver.h"/>
+         <include file="..\..\..\ioLibrary\Ethernet\wizchip_conf.h"/>
+         <include file="..\..\..\ioLibrary\Ethernet\socket.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\queue.h"/>
+         <include file="..\..\..\dmx512.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdio.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="14f4e12b0ef">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\ioLibrary\Internet\FTPServer\stdio_private.h" lastModified="14f2228b000">
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdint.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdio.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\projdefs.h" lastModified="14efde313cf">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x.h" lastModified="14f4e11a26d">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f10x.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdint.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="14f5e838280">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Internet\SNMP /I..\..\..\workspace\W5500FreeRTOSExample\Board /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSV7.6.0\Source /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSV7.6.0\Source\portable\GCC /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Ethernet\W5500 /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Internet /I..\..\..\workspace\W5500FreeRTOSExample /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSV7.6.0\Source\portable\GCC\ARMCM3 /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Internet\SNTP /I..\..\..\workspace\W5500FreeRTOSExample\stm_lib\inc /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSV7.6.0\Source\portable /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Application /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Application\loopback /I..\..\.. /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSV7.6.0\Source\include /I..\..\..\workspace\W5500FreeRTOSExample\stm_lib /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Internet\DNS /I..\..\..\workspace\W5500FreeRTOSExample\cmsis /I..\..\..\workspace\W5500FreeRTOSExample\cmsis_boot /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Ethernet\W5200 /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSV7.6.0 /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Internet\DHCP /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Ethernet\W5100 /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver\Ethernet /I..\..\..\workspace /I..\..\..\workspace\W5500FreeRTOSExample\ioLibrary_Driver">
+      <source file="..\..\..\stm_lib\src\misc.c" lastModified="14f4e1224ae">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="14f4e11befe">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="14f4e11a27c">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="14f4e11a27c">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="14f4e11a26d">
+      </source>
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="14f4e11a27c">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdint.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSV7.6.0\Source\portable\GCC\ARMCM3\portmacro.h" lastModified="14f4e87db3c">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="14f4e11a26d">
+      </source>
+      <source file="..\..\..\Board\IoTEVB.h" lastModified="14d50c5a8bf">
+      </source>
+      <source file="..\..\..\Board\W5500HardwareDriver.h" lastModified="14cd57dddb6">
+      </source>
+      <source file="..\..\..\Board\IoTEVB.c" lastModified="14d93a0c82d">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\Board\IoTEVB.h"/>
+         <include file="..\..\..\ioLibrary_Driver\Ethernet\wizchip_conf.h"/>
+      </source>
+      <source file="..\..\..\Board\W5500HardwareDriver.c" lastModified="14f4e859b9f">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\Board\W5500HardwareDriver.h"/>
+         <include file="..\..\..\ioLibrary_Driver\Ethernet\wizchip_conf.h"/>
+         <include file="..\..\..\Board\IoTEVB.h"/>
+         <include file="..\..\..\FreeRTOSV7.6.0\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSV7.6.0\Source\include\task.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdio.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_spi.h" lastModified="14f4e11e69f">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="14f4e11b67d">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="14f4e11e69f">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="14f4e11b67d">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="14f4e1295be">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_usart.h" lastModified="14f4e120a14">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_flash.c" lastModified="14f4e11f723">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_flash.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_flash.h" lastModified="14f4e11f723">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="14f4e120a23">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_exti.h" lastModified="14f4e1295be">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\misc.h" lastModified="14f4e1224ae">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSConfig.h" lastModified="14f4e8c339d">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_i2c.h" lastModified="14f4e12b0df">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="14f4e11bf0e">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="14f4e12b0ef">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x.h" lastModified="14f4e11a26d">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f10x.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdint.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSv8.2.2\Source\portable\GCC\ARM_CM3 /I..\..\..\workspace /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSv8.2.2 /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSv8.2.2\Source\portable /I..\..\.. /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSv8.2.2\Source /I..\..\..\workspace\W5500FreeRTOSExample /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSv8.2.2\Source\portable\GCC /I..\..\..\workspace\W5500FreeRTOSExample\FreeRTOSv8.2.2\Source\include">
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h" lastModified="14efde313ea">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\list.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\croutine.h" lastModified="14efde313b2">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\list.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\portable\GCC\ARM_CM3\portmacro.h" lastModified="14f4e015376">
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\portable\MemMang\heap_2.c" lastModified="14efde3168b">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+         <sysinclude file="..\..\..\..\..\..\..\cygwin64\usr\include\stdlib.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\mpu_wrappers.h" lastModified="14efde313c9">
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\croutine.c" lastModified="14efde313a8">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\task.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\croutine.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\portable.h" lastModified="14efde313cc">
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\deprecated_definitions.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\portable\GCC\ARM_CM3\portmacro.h"/>
+         <include file="..\..\..\FreeRTOSv8.2.2\Source\include\mpu_wrappers.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSv8.2.2\Source\include\projdefs.h" lastModified="14efde313cf">
+      </source>
+   </includePath>
+</dependencies>
